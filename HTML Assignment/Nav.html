@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    var nav_Bar = document.createElement('nav');
+    
+    // Create the Home link element
+    var homeLink = document.createElement('a');
+    homeLink.textContent = 'Home';
+    homeLink.href = '#';
+    
+    // Create the Contact Us link element
+    var contactLink = document.createElement('a');
+    contactLink.textContent = 'Contact Us';
+    contactLink.href = '#';
+    
+    // Create the Sign Up link element
+    var AboutLink = document.createElement('a');
+    AboutLink.textContent = 'About';
+    AboutLink.href = '#';
+    
+    var GalleryLink = document.createElement('a');
+    GalleryLink.textContent = 'Gallery';
+    GalleryLink.href = '#';
+    
+    nav_Bar.style.backgroundColor = '#025464';
+    nav_Bar.style.padding = '5px';
+    nav_Bar.style.display = 'flex';
+    nav_Bar.style.justifyContent = 'space-around';
+    
+    var links = [homeLink, contactLink, AboutLink, GalleryLink];
+    links.forEach(function(link)
+
+ {
+      link.style.marginRight = '2px';
+      link.style.textDecoration = 'none';
+      link.style.color = '#FFFFFF';
+    });
+    
+    links.forEach(function(link)
+
+   {
+      nav_Bar.appendChild(link);
+    });
+    
+    document.body.appendChild(nav_Bar);
+  </script>
+</body>
+</html>
