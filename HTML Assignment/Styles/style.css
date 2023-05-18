@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > figure {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+  }
+  .zoom { transition: all .2s ease-in-out; }
+  .zoom:hover { transform: scale(1.1); }
