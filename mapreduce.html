@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Filter Map Reduce</title>
+</head>
+<body>
+    
+
+    <script>
+        let BookPriceArray = [567.50,345.40,767.45,567.60,600,400,230,450,350.50,560.40,800.56,890.9]
+
+        // Find all prices less than 500
+        let Bookprice = BookPriceArray.filter(book=>book<500.0)
+        console.log(Bookprice);
+
+        // Find the first price greater than 600
+        let Bookprice1 = BookPriceArray.find(book1=>book1>600)
+        console.log(Bookprice1);
+
+        // Find all prices between 500 and 600
+        let Bookprice2 = BookPriceArray.filter(book2=>(book2>=500 && book2<=600))
+        console.log(Bookprice2);
+
+        // Display sum of all prices
+        initialValue=0;
+        let sum = BookPriceArray.reduce((temp, currentValue) => temp + currentValue,initialValue)
+        console.log(sum);
+
+        // Display sum of all prices but initial value of sum should be 100
+        initialValue=100;
+        let sum2 = BookPriceArray.reduce((temp, currentValue) => temp + currentValue,initialValue)
+        console.log(sum2);
+
+        // Double every price from array and display new prices
+        let Bookprice5 = BookPriceArray.map(x => x * 2);
+        console.log(Bookprice5);
+
+        // Display sum of prices which are less than 500
+        let Bookprice6 = BookPriceArray.filter(book=>book<500.0).reduce(((temp, currentValue) => temp + currentValue))
+        console.log(Bookprice6);
+        console.log('----------------------------------');
+
+
+        strArray = ['Learn Java','Basics of Python','Advanced java Concepts','Web Basics', 'Easy learnng Python', 'Web Fundamentals', 'JAVA fundamentals'];
+
+        // Find all books starting with 'Web'  : ['Web Basics','Web Fundamentals']
+        let strarr= strArray.filter(book=>book.startsWith("Web"))
+        console.log(strarr);
+        // Find all books which are related to Java :['Learn Java', 'Advanced java Concepts','JAVA fundamentals']
+        let str = strArray.filter(book=>book.toLowerCase().includes('java'))
+        console.log(str);
+
+        // Prepend 'Neo-' to every Book Name and Display new book name
+        let str2 = strArray.map(book=>"Neo-"+book)
+        console.log(str2);
+
+        // Display sum of length of every bookname
+        let str3 = strArray.map(book=>book.length).reduce(((temp, currentValue) => temp + currentValue))
+        console.log(str3);
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
