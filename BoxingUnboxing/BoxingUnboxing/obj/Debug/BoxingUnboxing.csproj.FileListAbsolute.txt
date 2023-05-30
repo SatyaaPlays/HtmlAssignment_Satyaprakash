@@ -1,0 +1,12 @@
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\BoxingUnboxing.exe.config
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\BoxingUnboxing.exe
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\BoxingUnboxing.pdb
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\KetanSirQuestions.exe
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\KetanSirQuestions.pdb
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\bin\Debug\KetanSirQuestions.exe.config
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.csproj.AssemblyReference.cache
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.csproj.CopyComplete
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.exe
+C:\Users\user\Web API\BoxingUnboxing\BoxingUnboxing\obj\Debug\BoxingUnboxing.pdb

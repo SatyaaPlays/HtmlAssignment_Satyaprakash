@@ -1,0 +1,8 @@
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\bin\Debug\ArrayNumber.exe.config
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\bin\Debug\ArrayNumber.exe
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\bin\Debug\ArrayNumber.pdb
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\obj\Debug\ArrayNumber.csproj.AssemblyReference.cache
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\obj\Debug\ArrayNumber.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\obj\Debug\ArrayNumber.csproj.CoreCompileInputs.cache
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\obj\Debug\ArrayNumber.exe
+C:\Users\user\Web API\ArrayNumber\ArrayNumber\obj\Debug\ArrayNumber.pdb
